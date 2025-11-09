@@ -1,4 +1,4 @@
-resources "aws_instance" "test_instance" {
+resource "aws_instance" "test_instance" {
 ami = "ami-047248cf574e28ecc"
 machine = "t2.micro"
 }
