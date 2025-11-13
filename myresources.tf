@@ -4,6 +4,6 @@ instance_type = "t2.nano"
  tags = {
         Name = "Demo-VM"
     }
-   security_groups = $(var.Security_Group)
+   security_groups = var.Security_Group
 }
 
