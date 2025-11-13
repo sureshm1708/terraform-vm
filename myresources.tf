@@ -5,5 +5,6 @@ instance_type = "t2.nano"
         Name = "Demo-VM"
     }
    security_groups = var.Security_Group
+key_name="terraform-vm"
 }
 
