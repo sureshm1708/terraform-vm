@@ -1,5 +1,5 @@
 resource "aws_instance" "test_instance" {
-ami = "ami-0b0ea68c435eb488d"
+ami = lookup[var.AMIS, var.AWS_REGION]
 instance_type = "t2.nano"
  tags = {
         Name = "Demo-VM"
