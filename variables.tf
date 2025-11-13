@@ -4,10 +4,6 @@ variable "AWS_SECRET_KEY" {}
 variable "AWS_REGION" {
     default = "us-east-2"
 }
-# variable "Security_Group" {
-    type = list
-    default = ["my_sg_group","my_sg_group1"]
-}
 
 variable "AMIS" {
     type = map
