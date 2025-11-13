@@ -6,7 +6,7 @@ variable "AWS_REGION" {
 }
 variable Security_Groups {
     type = list
-    default = ("default","my-sg2")
+    default = ["default","my-sg2"]
 }
 variable "AMIS" {
     type = map
